@@ -1,0 +1,60 @@
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		/*
+		 	편의점
+		 	지불금액 : 3,210원
+		 	본인금액 : 10,000원
+		 	
+		 	거스름돈 -> ?
+		 	
+		 	5000원 -> ?장
+		 	1000원 -> ?장
+		 	 500원 -> ?개
+		 	 100원 -> ?개
+		 	  50원 -> ?개
+		 	  10원 -> ?개
+		 */
+		
+		int pay;
+		pay = 10000;
+		
+		int price;
+		price = 3210;
+		
+		int remain;
+		remain = pay - price;
+		
+		System.out.println("거스름돈은 " + remain + "원 입니다.");
+		
+		int paper;
+		paper = remain/5000;
+		System.out.println("5000원은 " + paper + "장");
+		
+		int paper2;
+		paper2 = remain%5000/1000;
+		System.out.println("1000원은 " + paper2 + "장");
+		
+		int paper3;
+		paper3 = remain%1000/500;
+		System.out.println("500원은 " + paper3 + "개");
+		
+		int paper4;
+		paper4 = remain%500/100;
+		System.out.println("100원은 " + paper4 + "개");
+		
+		int paper5;
+		paper5 = remain%100/50;
+		System.out.println("50원은 " + paper5 + "개");
+		
+		int paper6;
+		paper6 = remain%50/10;
+		System.out.println("10원은 " + paper5 + "개");
+		
+		
+		
+
+	}
+
+}

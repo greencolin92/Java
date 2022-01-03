@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 23 resources" deleteContents="false" description="Delete 23 resources" element1="/1214 7 StudentProc" element10="/1215 9 Work4" element11="/1216 10 InterfaceWork4" element12="/1216 1 AbstractClass" element13="/1216 2 Interface" element14="/1216 3 Namecard" element15="/1216 4 NameCardInterface" element16="/1216 5 Final" element17="/1216 6 Static" element18="/1216 7 InterfaceWork" element19="/1216 7 Work1" element2="/1215 1 Inheritance" element20="/1216 8 InterfaceWork2" element21="/1216 8 Work2" element22="/1216 9 InterfaceWork3" element23="/1216 9 Work3" element3="/1215 2 InheritanceClass" element4="/1215 3 OverRide" element5="/1215 4 OverRide2" element6="/1215 5 OverRide3" element7="/1215 6 Work1" element8="/1215 7 Work2" element9="/1215 8 Work3" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="23" stamp="1639928624973"/>
+</session>
